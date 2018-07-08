@@ -42,9 +42,8 @@ ul li:not(:last-child) {
 
 /* Main Content */
 .card {
-    margin: 50px 0px;
+    margin: 50px 0px 120px 0px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 img {
@@ -137,11 +136,22 @@ img {
     padding: 0px 20px 0px 20px;
 }
 
+.btn-primary{
+    background: #4aaaa5;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.btn-primary:hover {
+    background: #343a40;
+}
+
 /* Footer */
 #footer {
     bottom: 0;
     width: 100%;
-    position: relative;
+    position: fixed;
     height: 60px;
     background-color: #343a40;
     border-top: #4aaaa5 3px solid;
