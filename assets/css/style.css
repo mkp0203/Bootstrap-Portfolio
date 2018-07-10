@@ -18,7 +18,7 @@ body {
 .navbar {
     border-bottom: 3px solid #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 70px;
+    /* height: 70px; */
 }
 
 .navbar-brand {
